@@ -4,26 +4,26 @@
     "name" : "tests.test_api",
     "children" : [ {
       "name" : "test_get_character",
-      "uid" : "a73b5de3ee319b08",
+      "uid" : "6bde86b7d5451149",
       "parentUid" : "676316b1b7b317019f79052fe28e5eee",
       "status" : "passed",
       "time" : {
-        "start" : 1740998750309,
-        "stop" : 1740998750416,
-        "duration" : 107
+        "start" : 1741000599787,
+        "stop" : 1741000599957,
+        "duration" : 170
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "test_get_episode",
-      "uid" : "f7a78b40e1700e10",
+      "uid" : "f6b4cc7e6f4eb383",
       "parentUid" : "676316b1b7b317019f79052fe28e5eee",
       "status" : "passed",
       "time" : {
-        "start" : 1740998750418,
-        "stop" : 1740998750801,
-        "duration" : 383
+        "start" : 1741000599958,
+        "stop" : 1741000600237,
+        "duration" : 279
       },
       "flaky" : false,
       "newFailed" : false,

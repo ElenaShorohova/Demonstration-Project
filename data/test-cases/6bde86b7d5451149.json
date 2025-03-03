@@ -1,12 +1,12 @@
 {
-  "uid" : "a73b5de3ee319b08",
+  "uid" : "6bde86b7d5451149",
   "name" : "test_get_character",
   "fullName" : "tests.test_api#test_get_character",
   "historyId" : "6422faf7b01fe13523508db532b199e3",
   "time" : {
-    "start" : 1740998750309,
-    "stop" : 1740998750416,
-    "duration" : 107
+    "start" : 1741000599787,
+    "stop" : 1741000599957,
+    "duration" : 170
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "api",
     "time" : {
-      "start" : 1740998750308,
-      "stop" : 1740998750308,
+      "start" : 1741000599786,
+      "stop" : 1741000599786,
       "duration" : 0
     },
     "status" : "passed",
@@ -32,16 +32,16 @@
     "steps" : [ {
       "name" : "Проверяем, что персонаж 1 - это Рик Санчез",
       "time" : {
-        "start" : 1740998750309,
-        "stop" : 1740998750416,
-        "duration" : 107
+        "start" : 1741000599787,
+        "stop" : 1741000599956,
+        "duration" : 169
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Проверяем статус код",
         "time" : {
-          "start" : 1740998750416,
-          "stop" : 1740998750416,
+          "start" : 1741000599956,
+          "stop" : 1741000599956,
           "duration" : 0
         },
         "status" : "passed",
@@ -55,8 +55,8 @@
       }, {
         "name" : "Проверяем имя персонажа",
         "time" : {
-          "start" : 1740998750416,
-          "stop" : 1740998750416,
+          "start" : 1741000599956,
+          "stop" : 1741000599956,
           "duration" : 0
         },
         "status" : "passed",
@@ -70,8 +70,8 @@
       }, {
         "name" : "Проверяем расу персонажа",
         "time" : {
-          "start" : 1740998750416,
-          "stop" : 1740998750416,
+          "start" : 1741000599956,
+          "stop" : 1741000599956,
           "duration" : 0
         },
         "status" : "passed",
@@ -86,7 +86,7 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "api",
-        "value" : "<tests.api_client.RickAndMortyAPI object at 0x7f155c5eb170>"
+        "value" : "<tests.api_client.RickAndMortyAPI object at 0x7fcb0fe72ea0>"
       } ],
       "stepsCount" : 3,
       "attachmentsCount" : 0,
@@ -115,10 +115,10 @@
     "value" : "test_api"
   }, {
     "name" : "host",
-    "value" : "fv-az1696-729"
+    "value" : "fv-az787-889"
   }, {
     "name" : "thread",
-    "value" : "2633-MainThread"
+    "value" : "2728-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,6 +142,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a73b5de3ee319b08.json",
+  "source" : "6bde86b7d5451149.json",
   "parameterValues" : [ ]
 }
