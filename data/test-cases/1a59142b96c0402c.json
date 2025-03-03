@@ -1,12 +1,12 @@
 {
-  "uid" : "6bde86b7d5451149",
-  "name" : "test_get_character",
-  "fullName" : "tests.test_api#test_get_character",
-  "historyId" : "6422faf7b01fe13523508db532b199e3",
+  "uid" : "1a59142b96c0402c",
+  "name" : "test_get_episode",
+  "fullName" : "tests.test_api#test_get_episode",
+  "historyId" : "ba7d5662f9a7fec116e3f74f6e7b1265",
   "time" : {
-    "start" : 1741000599787,
-    "stop" : 1741000599957,
-    "duration" : 170
+    "start" : 1741012827773,
+    "stop" : 1741012827932,
+    "duration" : 159
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "api",
     "time" : {
-      "start" : 1741000599786,
-      "stop" : 1741000599786,
-      "duration" : 0
+      "start" : 1741012827320,
+      "stop" : 1741012827321,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -30,18 +30,18 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Проверяем, что персонаж 1 - это Рик Санчез",
+      "name" : "Проверяем, что первый эпизод называется 'Pilot'",
       "time" : {
-        "start" : 1741000599787,
-        "stop" : 1741000599956,
-        "duration" : 169
+        "start" : 1741012827773,
+        "stop" : 1741012827931,
+        "duration" : 158
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Проверяем статус код",
         "time" : {
-          "start" : 1741000599956,
-          "stop" : 1741000599956,
+          "start" : 1741012827931,
+          "stop" : 1741012827931,
           "duration" : 0
         },
         "status" : "passed",
@@ -53,25 +53,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "Проверяем имя персонажа",
+        "name" : "Проверяем название эпизода",
         "time" : {
-          "start" : 1741000599956,
-          "stop" : 1741000599956,
-          "duration" : 0
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      }, {
-        "name" : "Проверяем расу персонажа",
-        "time" : {
-          "start" : 1741000599956,
-          "stop" : 1741000599956,
+          "start" : 1741012827931,
+          "stop" : 1741012827931,
           "duration" : 0
         },
         "status" : "passed",
@@ -86,16 +71,16 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "api",
-        "value" : "<tests.api_client.RickAndMortyAPI object at 0x7fcb0fe72ea0>"
+        "value" : "<tests.api_client.RickAndMortyAPI object at 0x7f776fe1e2d0>"
       } ],
-      "stepsCount" : 3,
+      "stepsCount" : 2,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
+    "stepsCount" : 3,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -103,10 +88,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "Characters API"
+    "value" : "Episodes API"
   }, {
     "name" : "story",
-    "value" : "Получение персонажа по ID"
+    "value" : "Получение эпизода по ID"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
@@ -115,10 +100,10 @@
     "value" : "test_api"
   }, {
     "name" : "host",
-    "value" : "fv-az787-889"
+    "value" : "fv-az1334-603"
   }, {
     "name" : "thread",
-    "value" : "2728-MainThread"
+    "value" : "2615-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,6 +127,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6bde86b7d5451149.json",
+  "source" : "1a59142b96c0402c.json",
   "parameterValues" : [ ]
 }

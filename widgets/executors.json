@@ -2,9 +2,9 @@
   "name" : "GitHub Actions",
   "type" : "github",
   "url" : "https://ElenaShorohova.github.io/api_ui_pytest_demo",
-  "buildOrder" : 7,
-  "buildName" : "GitHub Actions Run #13629603964",
-  "buildUrl" : "https://github.com/ElenaShorohova/api_ui_pytest_demo/actions/runs/13629603964",
+  "buildOrder" : 8,
+  "buildName" : "GitHub Actions Run #13633416730",
+  "buildUrl" : "https://github.com/ElenaShorohova/api_ui_pytest_demo/actions/runs/13633416730",
   "reportName" : "Allure Report with history",
-  "reportUrl" : "https://ElenaShorohova.github.io/api_ui_pytest_demo/7"
+  "reportUrl" : "https://ElenaShorohova.github.io/api_ui_pytest_demo/8"
 } ]
