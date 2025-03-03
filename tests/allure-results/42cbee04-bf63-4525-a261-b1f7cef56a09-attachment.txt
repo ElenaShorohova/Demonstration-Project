@@ -1,0 +1,1 @@
+ERROR    root:api_client.py:37 ❌ Ошибка HTTP 404: {"error":"Character not found"}
