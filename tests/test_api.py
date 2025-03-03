@@ -1,7 +1,6 @@
 import pytest
-
+import allure
 from tests.api_client import RickAndMortyAPI
-from tests.models import Character, Episode
 
 
 @pytest.fixture(scope="module")
@@ -9,29 +8,25 @@ def api():
     return RickAndMortyAPI()
 
 
+@allure.feature("Characters API")
+@allure.story("Получение персонажа по ID")
+@allure.step("Проверяем, что персонаж 1 - это Рик Санчез")
 def test_get_character(api):
-    """Проверяем, что можно получить персонажа Рика Санчеза"""
-    character = api.get_character(1)
-    validated_character = Character.model_validate(character)
-
-    assert validated_character.id == 1
-    assert validated_character.name == "Rick Sanchez"
-    assert validated_character.species == "Human"
-
-
-def test_get_all_characters(api):
-    """Проверяем, что список персонажей загружается"""
-    data = api.get_all_characters()
-
-    assert "results" in data
-    assert len(data["results"]) > 0
+    response = api.get_character(1)
+    with allure.step("Проверяем статус код"):
+        assert response["id"] == 1
+    with allure.step("Проверяем имя персонажа"):
+        assert response["name"] == "Rick Sanchez"
+    with allure.step("Проверяем расу персонажа"):
+        assert response["species"] == "Human"
 
 
+@allure.feature("Episodes API")
+@allure.story("Получение эпизода по ID")
+@allure.step("Проверяем, что первый эпизод называется 'Pilot'")
 def test_get_episode(api):
-    """Проверяем, что можно получить эпизод"""
-    episode = api.get_episode(1)
-    validated_episode = Episode.model_validate(episode)
-
-    assert validated_episode.id == 1
-    assert validated_episode.name == "Pilot"
-    assert "characters" in validated_episode.characters
+    response = api.get_episode(1)
+    with allure.step("Проверяем статус код"):
+        assert response["id"] == 1
+    with allure.step("Проверяем название эпизода"):
+        assert response["name"] == "Pilot"

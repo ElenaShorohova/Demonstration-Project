@@ -1,4 +1,4 @@
-name: API Tests
+name: API Tests with Allure
 
 on:
   push:
@@ -29,5 +29,11 @@ jobs:
       - name: Install dependencies
         run: poetry install
 
-      - name: Run tests
-        run: poetry run pytest --maxfail=1 --disable-warnings -v
+      - name: Run tests with Allure
+        run: poetry run pytest
+
+      - name: Upload Allure results
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-results
+          path: allure-results
