@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  tests:
+    build: .
+    container_name: api_tests
+    volumes:
+      - ./allure-results:/app/allure-results  # Монтируем папку для отчетов
+    command: poetry run pytest --alluredir=allure-results

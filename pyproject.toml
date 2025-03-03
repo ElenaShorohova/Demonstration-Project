@@ -13,8 +13,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "api_ui_pytest_demo", from = "src"}]
-
+package-mode = false
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"
