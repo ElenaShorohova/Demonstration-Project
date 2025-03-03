@@ -1,0 +1,21 @@
+[ {
+  "uid" : "a73b5de3ee319b08",
+  "name" : "test_get_character",
+  "time" : {
+    "start" : 1740998750309,
+    "stop" : 1740998750416,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7a78b40e1700e10",
+  "name" : "test_get_episode",
+  "time" : {
+    "start" : 1740998750418,
+    "stop" : 1740998750801,
+    "duration" : 383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

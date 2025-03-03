@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Characters API",
+    "children" : [ {
+      "name" : "Получение персонажа по ID",
+      "children" : [ {
+        "name" : "test_get_character",
+        "uid" : "a73b5de3ee319b08",
+        "parentUid" : "f5d594d99503bc001403af26c0b0acbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740998750309,
+          "stop" : 1740998750416,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5d594d99503bc001403af26c0b0acbc"
+    } ],
+    "uid" : "43243ef460ac720bb72a19e8b6bb2b99"
+  }, {
+    "name" : "Episodes API",
+    "children" : [ {
+      "name" : "Получение эпизода по ID",
+      "children" : [ {
+        "name" : "test_get_episode",
+        "uid" : "f7a78b40e1700e10",
+        "parentUid" : "7de57b32fc3adc3d7191063016a8679f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740998750418,
+          "stop" : 1740998750801,
+          "duration" : 383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7de57b32fc3adc3d7191063016a8679f"
+    } ],
+    "uid" : "2a02b59c62931e7fe2b7d7598ac7e875"
+  } ],
+  "name" : "behaviors"
+}

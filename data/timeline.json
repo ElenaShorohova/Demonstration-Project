@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az1696-729",
+    "children" : [ {
+      "name" : "2633-MainThread",
+      "children" : [ {
+        "name" : "test_get_character",
+        "uid" : "a73b5de3ee319b08",
+        "parentUid" : "61bec5a9e866624a2f018358508df2bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740998750309,
+          "stop" : 1740998750416,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_episode",
+        "uid" : "f7a78b40e1700e10",
+        "parentUid" : "61bec5a9e866624a2f018358508df2bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740998750418,
+          "stop" : 1740998750801,
+          "duration" : 383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "61bec5a9e866624a2f018358508df2bd"
+    } ],
+    "uid" : "974cc9e82e7aa2e7b542a66f11955fa8"
+  } ],
+  "name" : "timeline"
+}
