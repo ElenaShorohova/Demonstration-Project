@@ -29,6 +29,11 @@ jobs:
       - name: Install dependencies
         run: poetry install
 
+      - name: Run linters (flake8, black)
+        run: |
+          poetry run flake8 .
+          poetry run black --check .
+
       - name: Run tests with Allure
         run: poetry run pytest
 

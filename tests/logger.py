@@ -11,8 +11,8 @@ logging.basicConfig(
     format="%(asctime)s - [%(levelname)s] - %(message)s",
     handlers=[
         logging.FileHandler("logs/api_test.log", mode="w"),
-        logging.StreamHandler()
-    ]
+        logging.StreamHandler(),
+    ],
 )
 
 api_logger = logging.getLogger("api_logger")

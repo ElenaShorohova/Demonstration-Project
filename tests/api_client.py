@@ -14,12 +14,12 @@ class APIClient:
         self.session = requests.Session()
 
     def request(
-            self,
-            method: str,
-            endpoint: str,
-            params: Optional[dict] = None,
-            response_model: Optional[Type[BaseModel]] = None,
-            timeout: int = 5
+        self,
+        method: str,
+        endpoint: str,
+        params: Optional[dict] = None,
+        response_model: Optional[Type[BaseModel]] = None,
+        timeout: int = 5,
     ):
         """Отправляет запрос к API, логирует и валидирует ответ"""
         url = f"{self.BASE_URL}/{endpoint}"
@@ -33,7 +33,7 @@ class APIClient:
             logging.error(f"❌ Таймаут запроса {method} {url}")
             return {"error": "Request timed out"}
 
-        except requests.HTTPError as e:
+        except requests.HTTPError:
             logging.error(f"❌ Ошибка HTTP {response.status_code}: {response.text}")
             return {"error": f"HTTP error {response.status_code}"}
 
@@ -44,7 +44,9 @@ class APIClient:
         logging.info(f"✅ Ответ ({response.status_code}): {response.text[:500]}")
 
         if response_model:
-            return response_model.model_validate(response.json())  # Валидация через Pydantic
+            return response_model.model_validate(
+                response.json()
+            )  # Валидация через Pydantic
 
         return response.json()
 

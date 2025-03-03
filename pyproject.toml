@@ -19,7 +19,14 @@ packages = [{include = "api_ui_pytest_demo", from = "src"}]
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"
 allure-pytest = "^2.13.5"
+flake8 = "^7.1.2"
+black = "^25.1.0"
+pre-commit = "^4.1.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py311']

@@ -3,6 +3,7 @@ from pydantic import BaseModel
 
 class Character(BaseModel):
     """Модель персонажа"""
+
     id: int
     name: str
     status: str
@@ -19,6 +20,7 @@ class Character(BaseModel):
 
 class Episode(BaseModel):
     """Модель эпизода"""
+
     id: int
     name: str
     air_date: str
