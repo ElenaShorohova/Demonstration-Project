@@ -1,6 +1,6 @@
 [ {
-  "buildOrder" : 8,
-  "reportUrl" : "https://ElenaShorohova.github.io/api_ui_pytest_demo/8",
+  "buildOrder" : 13,
+  "reportUrl" : "https://ElenaShorohova.github.io/api_ui_pytest_demo/13",
   "reportName" : "Allure Report with history",
   "data" : {
     "run" : 2,
