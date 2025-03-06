@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
       - main
+  workflow_dispatch:  # Allow manual triggering of the workflow
 
 jobs:
   test:
@@ -14,17 +15,18 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.11"
+          python-version: "3.12"  # 🔹 Changed to match project requirement
 
       - name: Install Poetry
         run: |
           curl -sSL https://install.python-poetry.org | python3 -
           echo "$HOME/.local/bin" >> $GITHUB_PATH
+          poetry --version
 
       - name: Install dependencies
         run: poetry install
@@ -35,7 +37,7 @@ jobs:
           poetry run black --check .
 
       - name: Run tests with Allure
-        run: poetry run pytest
+        run: poetry run pytest --alluredir=allure-results
 
       - name: Upload Allure results
         uses: actions/upload-artifact@v4
@@ -56,3 +58,19 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-report
+
+      - name: Send Telegram Notification on Success
+        if: success()
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+          -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} \
+          -d text="✅ *Tests Passed!* 🚀%0A%0A🔹 Repository: ${{ github.repository }}%0A🔹 Branch: ${{ github.ref_name }}%0A🔹 Commit: ${{ github.sha }}%0A🔹 [Allure Report](https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY/)" \
+          -d parse_mode=Markdown
+
+      - name: Send Telegram Notification on Failure
+        if: failure()
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+          -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} \
+          -d text="❌ *Tests Failed!* 😢%0A%0A🔹 Repository: ${{ github.repository }}%0A🔹 Branch: ${{ github.ref_name }}%0A🔹 Commit: ${{ github.sha }}" \
+          -d parse_mode=Markdown
