@@ -6,13 +6,13 @@
       "name" : "Получение персонажа по ID",
       "children" : [ {
         "name" : "test_get_character",
-        "uid" : "bbac4b4b995fa2dd",
+        "uid" : "3a432705f6598de6",
         "parentUid" : "f5d594d99503bc001403af26c0b0acbc",
         "status" : "passed",
         "time" : {
-          "start" : 1741276447567,
-          "stop" : 1741276447650,
-          "duration" : 83
+          "start" : 1741278282204,
+          "stop" : 1741278282373,
+          "duration" : 169
         },
         "flaky" : false,
         "newFailed" : false,
@@ -27,13 +27,13 @@
       "name" : "Получение эпизода по ID",
       "children" : [ {
         "name" : "test_get_episode",
-        "uid" : "45555218b047c3e2",
+        "uid" : "52954bfdef76f161",
         "parentUid" : "7de57b32fc3adc3d7191063016a8679f",
         "status" : "passed",
         "time" : {
-          "start" : 1741276447652,
-          "stop" : 1741276447789,
-          "duration" : 137
+          "start" : 1741278282375,
+          "stop" : 1741278282485,
+          "duration" : 110
         },
         "flaky" : false,
         "newFailed" : false,

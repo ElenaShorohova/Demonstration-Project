@@ -1,8 +1,8 @@
 [ {
-  "buildOrder" : 14,
-  "reportUrl" : "https://ElenaShorohova.github.io/api_ui_pytest_demo/14",
+  "buildOrder" : 15,
+  "reportUrl" : "https://ElenaShorohova.github.io/api_ui_pytest_demo/15",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 222
+    "duration" : 281
   }
 } ]

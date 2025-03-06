@@ -1,12 +1,12 @@
 {
-  "uid" : "bbac4b4b995fa2dd",
+  "uid" : "3a432705f6598de6",
   "name" : "test_get_character",
   "fullName" : "tests.api.test_character_api#test_get_character",
   "historyId" : "9f4ec50e532ba240afcabbfa3e31f73b",
   "time" : {
-    "start" : 1741276447567,
-    "stop" : 1741276447650,
-    "duration" : 83
+    "start" : 1741278282204,
+    "stop" : 1741278282373,
+    "duration" : 169
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,36 +17,36 @@
     "steps" : [ {
       "name" : "Проверить, что персонаж 1 - это Рик Санчез",
       "time" : {
-        "start" : 1741276447567,
-        "stop" : 1741276447649,
-        "duration" : 82
+        "start" : 1741278282204,
+        "stop" : 1741278282372,
+        "duration" : 168
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Запрос: [GET] https://rickandmortyapi.com/api/character",
         "time" : {
-          "start" : 1741276447567,
-          "stop" : 1741276447568,
+          "start" : 1741278282204,
+          "stop" : 1741278282205,
           "duration" : 1
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ {
-          "uid" : "73b690cb955d4364",
+          "uid" : "8bc2b59be87bf26a",
           "name" : "HEADERS",
-          "source" : "73b690cb955d4364.json",
+          "source" : "8bc2b59be87bf26a.json",
           "type" : "application/json",
           "size" : 65
         }, {
-          "uid" : "7585cab57351c208",
+          "uid" : "c1af6b686f217143",
           "name" : "BODY",
-          "source" : "7585cab57351c208.json",
+          "source" : "c1af6b686f217143.json",
           "type" : "application/json",
           "size" : 2
         }, {
-          "uid" : "abe80164efe05e1",
+          "uid" : "b8b18f09f8ae4933",
           "name" : "CURL",
-          "source" : "abe80164efe05e1.txt",
+          "source" : "b8b18f09f8ae4933.txt",
           "type" : "text/plain",
           "size" : 120
         } ],
@@ -58,22 +58,22 @@
       }, {
         "name" : "Ответ: [200] https://rickandmortyapi.com/api/character",
         "time" : {
-          "start" : 1741276447647,
-          "stop" : 1741276447648,
+          "start" : 1741278282370,
+          "stop" : 1741278282371,
           "duration" : 1
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ {
-          "uid" : "56f03ee20e080a66",
+          "uid" : "b534dde85d2f23e8",
           "name" : "HEADERS",
-          "source" : "56f03ee20e080a66.json",
+          "source" : "b534dde85d2f23e8.json",
           "type" : "application/json",
           "size" : 600
         }, {
-          "uid" : "edd69066c3b53f5e",
+          "uid" : "d21831fe1901f274",
           "name" : "BODY",
-          "source" : "edd69066c3b53f5e.json",
+          "source" : "d21831fe1901f274.json",
           "type" : "application/json",
           "size" : 25053
         } ],
@@ -85,8 +85,8 @@
       }, {
         "name" : "Получить тело ответа в виде словаря или списка",
         "time" : {
-          "start" : 1741276447648,
-          "stop" : 1741276447649,
+          "start" : 1741278282371,
+          "stop" : 1741278282372,
           "duration" : 1
         },
         "status" : "passed",
@@ -100,8 +100,8 @@
       }, {
         "name" : "Проверить id персонажа",
         "time" : {
-          "start" : 1741276447649,
-          "stop" : 1741276447649,
+          "start" : 1741278282372,
+          "stop" : 1741278282372,
           "duration" : 0
         },
         "status" : "passed",
@@ -115,8 +115,8 @@
       }, {
         "name" : "Проверить имя персонажа",
         "time" : {
-          "start" : 1741276447649,
-          "stop" : 1741276447649,
+          "start" : 1741278282372,
+          "stop" : 1741278282372,
           "duration" : 0
         },
         "status" : "passed",
@@ -130,8 +130,8 @@
       }, {
         "name" : "Проверить расу персонажа",
         "time" : {
-          "start" : 1741276447649,
-          "stop" : 1741276447649,
+          "start" : 1741278282372,
+          "stop" : 1741278282372,
           "duration" : 0
         },
         "status" : "passed",
@@ -151,9 +151,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "9b1879682fd9fa7d",
+      "uid" : "94d8b6709b1c417d",
       "name" : "stderr",
-      "source" : "9b1879682fd9fa7d.txt",
+      "source" : "94d8b6709b1c417d.txt",
       "type" : "text/plain",
       "size" : 41278
     } ],
@@ -181,10 +181,10 @@
     "value" : "test_character_api"
   }, {
     "name" : "host",
-    "value" : "fv-az810-733"
+    "value" : "fv-az1267-994"
   }, {
     "name" : "thread",
-    "value" : "2638-MainThread"
+    "value" : "2650-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -208,6 +208,6 @@
     "categories" : [ ],
     "tags" : [ "api" ]
   },
-  "source" : "bbac4b4b995fa2dd.json",
+  "source" : "3a432705f6598de6.json",
   "parameterValues" : [ ]
 }

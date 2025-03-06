@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Mar 06 15:54:07 GMT 2025","Thu Mar 06 15:54:07 GMT 2025","83","tests.api","test_character_api","","","","test_get_character",""
-"passed","Thu Mar 06 15:54:07 GMT 2025","Thu Mar 06 15:54:07 GMT 2025","137","tests.api","test_episode_api","","","","test_get_episode",""
+"passed","Thu Mar 06 16:24:42 GMT 2025","Thu Mar 06 16:24:42 GMT 2025","110","tests.api","test_episode_api","","","","test_get_episode",""
+"passed","Thu Mar 06 16:24:42 GMT 2025","Thu Mar 06 16:24:42 GMT 2025","169","tests.api","test_character_api","","","","test_get_character",""
