@@ -1,4 +1,5 @@
 """Конфигурация с параметрами запуска"""
+
 from pathlib import Path
 
 from selenium.webdriver.chrome.webdriver import WebDriver

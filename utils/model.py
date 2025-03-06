@@ -1,4 +1,5 @@
 """Методы валидации ответа по схеме Pydantic"""
+
 from json import dumps
 from typing import Type
 

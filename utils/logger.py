@@ -1,4 +1,5 @@
-""" Модуль с функциями логгера """
+"""Модуль с функциями логгера"""
+
 import sys
 from json import dumps, loads
 

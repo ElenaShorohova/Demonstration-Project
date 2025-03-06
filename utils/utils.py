@@ -29,9 +29,11 @@ def get_curl(
     curl_attrs = [
         f"curl -X {request.method}",
         sep.join([f'-H "{k}: {v}"' for k, v in request.headers.items()]),
-        f'-d "{body.decode("latin-1") if isinstance(body, bytes) else body}"'
-        if body
-        else "",
+        (
+            f'-d "{body.decode("latin-1") if isinstance(body, bytes) else body}"'
+            if body
+            else ""
+        ),
         "--compressed " if is_compressed else "",
         "--insecure " if is_insecure else "",
         request.url,
