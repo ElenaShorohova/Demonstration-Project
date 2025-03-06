@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6c14701d095d2f81",
-      "reportUrl" : "https://ElenaShorohova.github.io/api_ui_pytest_demo/14/#testresult/6c14701d095d2f81",
+      "uid" : "bbac4b4b995fa2dd",
+      "reportUrl" : "https://ElenaShorohova.github.io/api_ui_pytest_demo/14/#testresult/bbac4b4b995fa2dd",
       "status" : "passed",
       "time" : {
-        "start" : 1741275545771,
-        "stop" : 1741275545863,
-        "duration" : 92
+        "start" : 1741276447567,
+        "stop" : 1741276447650,
+        "duration" : 83
       }
     } ]
   },
@@ -29,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "56e8e169978b3158",
-      "reportUrl" : "https://ElenaShorohova.github.io/api_ui_pytest_demo/14/#testresult/56e8e169978b3158",
+      "uid" : "45555218b047c3e2",
+      "reportUrl" : "https://ElenaShorohova.github.io/api_ui_pytest_demo/14/#testresult/45555218b047c3e2",
       "status" : "passed",
       "time" : {
-        "start" : 1741275545865,
-        "stop" : 1741275545956,
-        "duration" : 91
+        "start" : 1741276447652,
+        "stop" : 1741276447789,
+        "duration" : 137
       }
     } ]
   }
