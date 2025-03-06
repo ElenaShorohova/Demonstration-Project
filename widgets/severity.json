@@ -1,20 +1,20 @@
 [ {
-  "uid" : "ab2afee0e4e367b9",
+  "uid" : "6c14701d095d2f81",
   "name" : "test_get_character",
   "time" : {
-    "start" : 1741275084134,
-    "stop" : 1741275084225,
-    "duration" : 91
+    "start" : 1741275545771,
+    "stop" : 1741275545863,
+    "duration" : 92
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3e3ab89c2d38a15a",
+  "uid" : "56e8e169978b3158",
   "name" : "test_get_episode",
   "time" : {
-    "start" : 1741275084227,
-    "stop" : 1741275084291,
-    "duration" : 64
+    "start" : 1741275545865,
+    "stop" : 1741275545956,
+    "duration" : 91
   },
   "status" : "passed",
   "severity" : "normal"

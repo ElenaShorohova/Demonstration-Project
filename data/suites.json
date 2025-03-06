@@ -6,13 +6,13 @@
       "name" : "test_character_api",
       "children" : [ {
         "name" : "test_get_character",
-        "uid" : "ab2afee0e4e367b9",
+        "uid" : "6c14701d095d2f81",
         "parentUid" : "0e3f79c506b1060516aaec2a63f48979",
         "status" : "passed",
         "time" : {
-          "start" : 1741275084134,
-          "stop" : 1741275084225,
-          "duration" : 91
+          "start" : 1741275545771,
+          "stop" : 1741275545863,
+          "duration" : 92
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
       "name" : "test_episode_api",
       "children" : [ {
         "name" : "test_get_episode",
-        "uid" : "3e3ab89c2d38a15a",
+        "uid" : "56e8e169978b3158",
         "parentUid" : "21cdf263226001f8bd9e34fe813a6f7c",
         "status" : "passed",
         "time" : {
-          "start" : 1741275084227,
-          "stop" : 1741275084291,
-          "duration" : 64
+          "start" : 1741275545865,
+          "stop" : 1741275545956,
+          "duration" : 91
         },
         "flaky" : false,
         "newFailed" : false,
