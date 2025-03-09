@@ -1,39 +1,39 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "6216309b0652",
+    "name" : "e70f0acdaadd",
     "children" : [ {
       "name" : "38-MainThread",
       "children" : [ {
         "name" : "test_get_episode",
-        "uid" : "e3e312edca2cc397",
-        "parentUid" : "2c0c9f96d1987ed5e31f1e0f4cdd018f",
+        "uid" : "ec8a952ec8acf5ec",
+        "parentUid" : "19b00f78730136e7bb6284133b4c0e78",
         "status" : "passed",
         "time" : {
-          "start" : 1741537995165,
-          "stop" : 1741537995579,
-          "duration" : 414
+          "start" : 1741538622951,
+          "stop" : 1741538623430,
+          "duration" : 479
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_get_character",
-        "uid" : "16cdbe75336c32b4",
-        "parentUid" : "2c0c9f96d1987ed5e31f1e0f4cdd018f",
+        "uid" : "cfb4464e1487640c",
+        "parentUid" : "19b00f78730136e7bb6284133b4c0e78",
         "status" : "passed",
         "time" : {
-          "start" : 1741537995038,
-          "stop" : 1741537995162,
-          "duration" : 124
+          "start" : 1741538622787,
+          "stop" : 1741538622948,
+          "duration" : 161
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2c0c9f96d1987ed5e31f1e0f4cdd018f"
+      "uid" : "19b00f78730136e7bb6284133b4c0e78"
     } ],
-    "uid" : "6b82957747b1b133e6816c9690c21055"
+    "uid" : "ccc9fd34f8d5236ca0fff04f6e17ec82"
   } ],
   "name" : "timeline"
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "e3e312edca2cc397",
-  "name" : "test_get_episode",
-  "fullName" : "tests.api.test_episode_api#test_get_episode",
-  "historyId" : "ac5203bcc4aa24e0377a9b6fc00d92d5",
+  "uid" : "cfb4464e1487640c",
+  "name" : "test_get_character",
+  "fullName" : "tests.api.test_character_api#test_get_character",
+  "historyId" : "9f4ec50e532ba240afcabbfa3e31f73b",
   "time" : {
-    "start" : 1741537995165,
-    "stop" : 1741537995579,
-    "duration" : 414
+    "start" : 1741538622787,
+    "stop" : 1741538622948,
+    "duration" : 161
   },
   "status" : "passed",
   "flaky" : false,
@@ -15,40 +15,40 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Проверить, что первый эпизод называется 'Pilot'",
+      "name" : "Проверить, что персонаж 1 - это Рик Санчез",
       "time" : {
-        "start" : 1741537995165,
-        "stop" : 1741537995579,
-        "duration" : 414
+        "start" : 1741538622787,
+        "stop" : 1741538622948,
+        "duration" : 161
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Запрос: [GET] https://rickandmortyapi.com/api/episode",
+        "name" : "Запрос: [GET] https://rickandmortyapi.com/api/character",
         "time" : {
-          "start" : 1741537995165,
-          "stop" : 1741537995165,
-          "duration" : 0
+          "start" : 1741538622787,
+          "stop" : 1741538622788,
+          "duration" : 1
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ {
-          "uid" : "e8f1c4a3b7a6569c",
+          "uid" : "2ea1c5df37696efb",
           "name" : "HEADERS",
-          "source" : "e8f1c4a3b7a6569c.json",
+          "source" : "2ea1c5df37696efb.json",
           "type" : "application/json",
           "size" : 65
         }, {
-          "uid" : "c14c4ac4b3114a2c",
+          "uid" : "32a6b4ccf5544272",
           "name" : "BODY",
-          "source" : "c14c4ac4b3114a2c.json",
+          "source" : "32a6b4ccf5544272.json",
           "type" : "application/json",
           "size" : 2
         }, {
-          "uid" : "3da2c10c6372699c",
+          "uid" : "818c7254af319179",
           "name" : "CURL",
-          "source" : "3da2c10c6372699c.txt",
+          "source" : "818c7254af319179.txt",
           "type" : "text/plain",
-          "size" : 118
+          "size" : 120
         } ],
         "parameters" : [ ],
         "stepsCount" : 0,
@@ -56,26 +56,26 @@
         "shouldDisplayMessage" : false,
         "hasContent" : true
       }, {
-        "name" : "Ответ: [200] https://rickandmortyapi.com/api/episode",
+        "name" : "Ответ: [200] https://rickandmortyapi.com/api/character",
         "time" : {
-          "start" : 1741537995577,
-          "stop" : 1741537995578,
+          "start" : 1741538622946,
+          "stop" : 1741538622947,
           "duration" : 1
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ {
-          "uid" : "9a00cc6475e97860",
+          "uid" : "fc2c05a3779bbf82",
           "name" : "HEADERS",
-          "source" : "9a00cc6475e97860.json",
+          "source" : "fc2c05a3779bbf82.json",
           "type" : "application/json",
-          "size" : 607
+          "size" : 600
         }, {
-          "uid" : "cf0ece65e8a168a0",
+          "uid" : "bd2634b28866574c",
           "name" : "BODY",
-          "source" : "cf0ece65e8a168a0.json",
+          "source" : "bd2634b28866574c.json",
           "type" : "application/json",
-          "size" : 34232
+          "size" : 25053
         } ],
         "parameters" : [ ],
         "stepsCount" : 0,
@@ -85,8 +85,8 @@
       }, {
         "name" : "Получить тело ответа в виде словаря или списка",
         "time" : {
-          "start" : 1741537995578,
-          "stop" : 1741537995578,
+          "start" : 1741538622947,
+          "stop" : 1741538622947,
           "duration" : 0
         },
         "status" : "passed",
@@ -98,10 +98,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "Проверить id первого эпизода",
+        "name" : "Проверить id персонажа",
         "time" : {
-          "start" : 1741537995579,
-          "stop" : 1741537995579,
+          "start" : 1741538622948,
+          "stop" : 1741538622948,
           "duration" : 0
         },
         "status" : "passed",
@@ -113,10 +113,25 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "Проверить название эпизода",
+        "name" : "Проверить имя персонажа",
         "time" : {
-          "start" : 1741537995579,
-          "stop" : 1741537995579,
+          "start" : 1741538622948,
+          "stop" : 1741538622948,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Проверить расу персонажа",
+        "time" : {
+          "start" : 1741538622948,
+          "stop" : 1741538622948,
           "duration" : 0
         },
         "status" : "passed",
@@ -130,20 +145,20 @@
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 5,
+      "stepsCount" : 6,
       "attachmentsCount" : 5,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "6db0d8e6f4df4b99",
+      "uid" : "2bcd19b7806749f1",
       "name" : "stderr",
-      "source" : "6db0d8e6f4df4b99.txt",
+      "source" : "2bcd19b7806749f1.txt",
       "type" : "text/plain",
-      "size" : 58523
+      "size" : 41278
     } ],
     "parameters" : [ ],
-    "stepsCount" : 6,
+    "stepsCount" : 7,
     "attachmentsCount" : 6,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -151,19 +166,22 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "story",
-    "value" : "Получение эпизода по ID"
+    "value" : "Получение персонажа по ID"
   }, {
     "name" : "feature",
-    "value" : "Episodes API"
+    "value" : "Characters API"
+  }, {
+    "name" : "tag",
+    "value" : "api"
   }, {
     "name" : "parentSuite",
     "value" : "tests.api"
   }, {
     "name" : "suite",
-    "value" : "test_episode_api"
+    "value" : "test_character_api"
   }, {
     "name" : "host",
-    "value" : "6216309b0652"
+    "value" : "e70f0acdaadd"
   }, {
     "name" : "thread",
     "value" : "38-MainThread"
@@ -175,7 +193,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.test_episode_api"
+    "value" : "tests.api.test_character_api"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -188,8 +206,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "api" ]
   },
-  "source" : "e3e312edca2cc397.json",
+  "source" : "cfb4464e1487640c.json",
   "parameterValues" : [ ]
 }
