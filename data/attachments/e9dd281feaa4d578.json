@@ -1,18 +1,18 @@
 {
   "Access-Control-Allow-Origin": "*",
-  "Age": "11382",
+  "Age": "31095",
   "Cache-Control": "max-age=259200",
   "Cache-Status": "\"Netlify Edge\"; hit",
   "Content-Encoding": "gzip",
   "Content-Length": "1460",
   "Content-Type": "application/json; charset=utf-8",
-  "Date": "Thu, 06 Mar 2025 16:24:42 GMT",
+  "Date": "Sun, 09 Mar 2025 16:33:15 GMT",
   "Etag": "W/\"4c28-8Xn6OSgPYZqE/r+q8L2TTeK0Efo\"",
-  "Expires": "Sun, 09 Mar 2025 13:15:00 GMT",
+  "Expires": "Wed, 12 Mar 2025 07:55:01 GMT",
   "Netlify-Vary": "query",
   "Server": "Netlify",
   "Strict-Transport-Security": "max-age=31536000",
   "Vary": "Accept-Encoding",
-  "X-Nf-Request-Id": "01JNP4C0KNSCYYJVFR36NPXFW3",
+  "X-Nf-Request-Id": "01JNXW1TCMAKMZTKVQJA5JVJKJ",
   "X-Powered-By": "Express"
 }
