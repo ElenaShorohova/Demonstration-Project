@@ -6,4 +6,7 @@ services:
     container_name: api_tests
     volumes:
       - ./allure-results:/app/allure-results  # Монтируем папку для отчетов
-    command: poetry run pytest --alluredir=allure-results
+    environment:
+      - CI=true  # Переменная для GitHub Actions
+    command: >
+      sh -c "poetry install && poetry run pytest --alluredir=allure-results"
