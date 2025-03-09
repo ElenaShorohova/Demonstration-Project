@@ -34,7 +34,7 @@ api_ui_pytest_demo/
 
 Убедитесь, что у вас установлен **Python 3.12** и **Poetry**.  
 1) Клонируйте репозиторий:
-https://github.com/ElenaShorohova/api_ui_pytest_demo.git
+https://github.com/ElenaShorohova/Demonstration-Project.git
 
 2) Установите зависимости:
 poetry install
